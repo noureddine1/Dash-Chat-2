@@ -11,7 +11,6 @@ List<MatchText> defaultPersePatterns = <MatchText>[
       if (!url.startsWith('http://') && !url.startsWith('https://')) {
         url = 'http://' + url;
       }
-      launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
     },
   ),
 ];
